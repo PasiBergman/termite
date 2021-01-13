@@ -56,7 +56,7 @@ foreground = #DDDCDC
 foreground_bold = #D5D5D6
 
 # 20% background transparency (requires a compositor)
-background = rgba(10, 10, 10, 0.9)
+background = rgba(10, 10, 10, 0.70)
 
 # If unset, will reverse foreground and background
 highlight = #2f2f2f
