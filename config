@@ -2,7 +2,7 @@
 # Confiuration for Termite terminal emulator
 # =============================================================================
 [options]
-#allow_bold = true
+allow_bold = true
 #audible_bell = false
 bold_is_bright = true
 cell_height_scale = 1.00
@@ -24,15 +24,12 @@ scrollback_lines = 20000
 #search_wrap = true
 #urgent_on_bell = true
 hyperlinks = true
-
-# $BROWSER is used by default if set, with xdg-open as a fallback
-#browser = xdg-open
-
 # "system", "on" or "off"
-cursor_blink = system
-
+cursor_blink = on
 # "block", "underline" or "ibeam"
 cursor_shape = block
+# $BROWSER is used by default if set, with xdg-open as a fallback
+browser = firefox
 
 # Hide links that are no longer valid in url select overlay mode
 filter_unmatched_urls = true
@@ -52,13 +49,13 @@ scrollbar = off
 cursor = #dcdccc
 cursor_foreground = #dcdccc
 
-foreground = #DDDCDC
+# foreground = #DDDCDC
 foreground_bold = #D5D5D6
 
 # 20% background transparency (requires a compositor)
-# background = rgba(10, 10, 10, 0.70)
+background = rgba(0, 0, 0, 0.75)
 # background = #1E1E1E
-background = #0A0A0A
+# background = #0A0A0A
 
 # If unset, will reverse foreground and background
 highlight = #2f2f2f
